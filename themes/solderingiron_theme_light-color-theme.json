@@ -301,7 +301,8 @@
 				"storage.type.built-in.primitive.c",
 				"storage.type.built-in.c",
 				"storage.type.struct.c",
-				"storage.modifier.c"
+				"storage.modifier.c",
+				"storage.type.enum.c"
 			],
 			"settings": {
 				"foreground": "#800953",
