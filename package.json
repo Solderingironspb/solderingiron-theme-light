@@ -1,0 +1,27 @@
+{
+  "name": "solderingiron-theme-light",
+  "displayName": "Solderingiron theme light",
+  "description": "light theme by Volkov Oleg (Solderingiron spb)",
+  "version": "1.0.0",
+  "publisher": "Volkov Oleg",
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/Solderingironspb/VSC-make-example"
+    },
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "images/icon.png", 
+  "contributes": {
+    "themes": [
+      {
+        "label": "Solderingiron theme light",
+        "uiTheme": "vs",
+        "path": "./themes/solderingiron_theme_light-color-theme.json"
+      }
+    ]
+  }
+}
