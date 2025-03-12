@@ -298,8 +298,9 @@
 		},
 		{
 			"scope": [
-				"storage.type.built-in.primitive.c",
 				"storage.type.built-in.c",
+				"storage.type.struct.c",
+				"storage.type.built-in.primitive.c",
 				"storage.type.struct.c",
 				"storage.modifier.c",
 				"storage.type.enum.c"
@@ -308,7 +309,140 @@
 				"foreground": "#800953",
 				"fontStyle": "bold"
 			}
+		},
+		//powershell
+		{
+			"scope": [
+				"comment.line.powershell"
+			],
+			"settings": {
+				"foreground": "#006400",
+			}
+		},
+		{
+			"scope": [
+				"variable.other.readwrite.powershell",
+				"support.variable.automatic.powershell"
+			],
+			"settings": {
+				"foreground": "#a82d00",
+			}
+		},
+		{
+			"scope": [
+				"string.quoted.double.powershell",
+				"string.quoted.single.powershell",
+				"constant.character.escape.powershell"
+			],
+			"settings": {
+				"foreground": "#8b0000",
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.assignment.powershell"
+			],
+			"settings": {
+				"foreground": "#696969",
+			}
+		},
+		{
+			"scope": [
+				"constant.numeric.integer.powershell"
+			],
+			"settings": {
+				"foreground": "#800086",
+			}
+		},
+		{
+			"scope": [
+				"storage.type.powershell",
+				"meta.function.powershell"
+			],
+			"settings": {
+				"foreground": "#083eb3",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function.powershell"
+			],
+			"settings": {
+				"foreground": "#8a2be2",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"storage.type.powershell"
+			],
+			"settings": {
+				"foreground": "#006161",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"support.function.powershell",
+			],
+			"settings": {
+				"foreground": "#0000ff",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"keyword.control.powershell",
+			],
+			"settings": {
+				"foreground": "#00008b",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"meta.scriptblock.powershell",
+			],
+			"settings": {
+				"foreground": "#000080",
+				"fontStyle": "bold"
+			}
+		},
+		//Makefile
+		{
+			"scope": [
+				"variable.other.makefile",
+			],
+			"settings": {
+				"foreground": "#4e76dd",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"string.interpolated.makefile",
+				"entity.name.function.target.makefile"
+			],
+			"settings": {
+				"foreground": "#d00f3f",
+				"fontStyle": "bold"
+			}
 		}
+		//punctuation.definition.variable.makefile
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 		
 	]
